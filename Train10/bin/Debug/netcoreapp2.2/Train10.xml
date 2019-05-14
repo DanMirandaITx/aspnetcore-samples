@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Train10</name>
+    </assembly>
+    <members>
+        <member name="T:Train10.Controllers.ExampleController">
+            <summary>
+            Controlador de ejemplo
+            </summary>
+        </member>
+        <member name="M:Train10.Controllers.ExampleController.Get">
+            <summary>
+            Test 5
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Train10.Controllers.ExampleController.Get(System.Int32)">
+            <summary>
+            Regresa el ejemplo por id
+            </summary>
+            <param name="id">Id del ejemplo</param>
+            <returns>El ejemplo solicitado</returns>
+        </member>
+        <member name="T:Train10.Models.Blog">
+            <summary>
+            Blog model.
+            </summary>
+        </member>
+        <member name="P:Train10.Models.Blog.BlogId">
+            <summary>
+            The id of the blog.
+            </summary>
+            <value>Blog Id.</value>
+        </member>
+        <member name="T:Train10.Models.Comment">
+            <summary>
+            Comment model.
+            </summary>
+        </member>
+        <member name="T:Train10.Models.Post">
+            <summary>
+            Post model.
+            </summary>
+        </member>
+        <member name="P:Train10.Models.Post.PostId">
+            <summary>
+            PostId
+            </summary>
+            <value>PostId</value>
+        </member>
+    </members>
+</doc>
